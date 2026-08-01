@@ -19,7 +19,7 @@ console.log(id==anotherId)  //--> false
 const bigNumber=923456789876543876543n                //BigInt  (n)
 
 
-// Non Primitive / reference
+// Non Primitive OR  reference
 // Array
 // Objects (Imp)
 // Functions
@@ -35,6 +35,7 @@ const myFunction = function(){
 }
 
 console.log(typeof myFunction)      //function
+
 //Imp topic --> Browser events
 
 //Javascript - dynamically typed
@@ -52,7 +53,7 @@ let name1="taran"
 
 
 //name in stack
-//userOne variable in sttack but the properties in heap , userOne gets the reference of properties  
+//userOne variable in stack but the properties in heap , userOne gets the reference of properties  
 
 //humare pass two variable h
 //var1 and var2
